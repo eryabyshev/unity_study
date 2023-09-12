@@ -4,3 +4,5 @@
 */Library/
 */Temp/
 */UserSettings/
+*.sln
+*.csproj
