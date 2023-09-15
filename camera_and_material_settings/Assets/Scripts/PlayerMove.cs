@@ -8,6 +8,8 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private float _speed = 5;
     private float _oldMousPositinX;
     private float _eulerY;
+    [SerializeField] private Animator _animator;
+
 
     // Start is called before the first frame update
     void Start()
@@ -22,10 +24,17 @@ public class PlayerMove : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
         {
             _oldMousPositinX = Input.mousePosition.x;
+            _animator.SetBool("Run", true);
+        }
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            _oldMousPositinX = Input.mousePosition.x;
+            _animator.SetBool("Run", false);
         }
 
 
-        if(Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0))
         {
 
             Vector3 newPosition = transform.position + transform.forward * Time.deltaTime * _speed;
