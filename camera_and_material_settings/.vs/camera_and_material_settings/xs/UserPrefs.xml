@@ -1,15 +1,16 @@
-﻿<Properties StartupConfiguration="{9FFA77E6-F619-792B-6DBC-4830BB281F6B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CapsulaScript.cs">
+﻿<Properties StartupConfiguration="{82577A55-4775-511F-995F-756385F4C995}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraMove.cs">
     <Files>
-      <File FileName="Assets/Scripts/CapsulaScript.cs" Line="54" Column="10" />
+      <File FileName="Assets/Scripts/PlayerMove.cs" Line="43" Column="1" />
+      <File FileName="Assets/Scripts/CameraMove.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="c_sharp_basic" expanded="True">
+          <Node name="camera_and_material_settings" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="CapsulaScript.cs" selected="True" />
+                <Node name="CameraMove.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -19,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="27cd528b-cca6-4940-b1ad-2d098b306f3b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="33645a6e-3e6f-4a7a-b22b-154727873ffe" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
