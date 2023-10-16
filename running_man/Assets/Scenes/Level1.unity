@@ -2332,7 +2332,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: +5
+  m_text: 30
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2460,7 +2460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0.85882354}
+  m_Color: {r: 0.24056602, g: 1, b: 0.31873897, a: 0.8}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2646,7 +2646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.454902, g: 0.7960785, b: 0.91372555, a: 1}
+  m_Color: {r: 0.24056602, g: 1, b: 0.31873897, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2810,7 +2810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1304975020
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3137,7 +3137,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1441166179
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3833,6 +3833,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1900031437}
+  - component: {fileID: 1900031438}
+  - component: {fileID: 1900031439}
   m_Layer: 0
   m_Name: Gate
   m_TagString: Untagged
@@ -3858,6 +3860,42 @@ Transform:
   - {fileID: 447435172}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1900031438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900031436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe1a89b82504724998db1d44ecb014e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 1035959482}
+  _topeImage: {fileID: 1173468109}
+  _glassImage: {fileID: 1125304542}
+  _positiveColor: {r: 0.24056602, g: 1, b: 0.31873897, a: 1}
+  _negativeColor: {r: 0.9716981, g: 0.068752214, b: 0.07700257, a: 1}
+  _widthUp: {fileID: 1304975019}
+  _widthDown: {fileID: 1667071364}
+  _heigthUp: {fileID: 780890226}
+  _heigthDown: {fileID: 1441166178}
+--- !u!114 &1900031439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900031436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e16a313ad52c7ce40840497cbf58fb43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _value: 30
+  _deformationType: 0
+  _gateApperence: {fileID: 1900031438}
 --- !u!1001 &1915210175
 PrefabInstance:
   m_ObjectHideFlags: 0
